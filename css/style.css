@@ -124,6 +124,30 @@
     background: #5f646c;
     animation: preloader_after 1.8s infinite cubic-bezier(0.4, 0, 0.2, 1); }
 
+.anim-item-socity {
+  background-color: white;
+
+  transition: all .2s linear;
+}
+
+.anim-bg-socity {
+  transition: all .3s linear;
+}
+
+/*движение кнопки*/
+.anim-bg-socity:hover .anim-item-socity{
+    transform: translate3d(-5px, -4px, 0);
+    
+}
+
+.anim-bg-socity:hover {
+  background-color: rgb(82 82 82 / 40%);
+}
+
+.test {
+  transform: translate3d(0px, 20px, 0);
+}
+
 @keyframes preloader_before {
   0% {
     transform: translateX(0px) rotate(0deg); }
@@ -150,5 +174,6 @@
     padding: 30px 15px; }
     .contact-form__title {
       font-size: 16px; } }
+
 
 /*# sourceMappingURL=style.css.map */
