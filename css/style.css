@@ -148,6 +148,7 @@
   transform: translate3d(0px, 20px, 0);
 }
 
+/* НАША КОМАНДА */
 
 .nav-item-custom {
   font-family: Oswald, sans-serif !important;
@@ -184,14 +185,46 @@ box-shadow: 12px 9px 10px -2px rgba(0, 118, 58, 0.41);
 
 
 .card-custom {
-  border: 3px solid #00763a;
+  border: 4px solid #00763a;
   border-radius: 12px !important;
   background-color: #404040 !important;
 }
 
+
 .card-img-top-custom {
-  
+ -webkit-box-shadow: 0px 4px 55px -7px rgba(0, 118, 58, 0.41);
+-moz-box-shadow: 0px 4px 55px -7px rgba(0, 118, 58, 0.41);
+box-shadow: 0px 4px 55px -7px rgba(0, 118, 58, 0.41);
 }
+
+.card-title-custom {
+  font-family: Raleway, sans-serif !important;
+  font-weight: 900;
+
+  color: #FFFFFF;
+}
+
+.card-title-custom:after {
+    content: "";
+    display: block;
+    background-color: #00763a;
+
+    margin: auto;
+    margin-top: 20px;
+
+    max-width: 100%;
+    width: 100%;
+
+    height: 2px;
+
+}
+
+.card-text-custom { 
+  font-family: Raleway, sans-serif !important;
+  font-weight: 300;
+  color: #FFFFFF;
+  white-space: nowrap;
+ }
 
 @keyframes preloader_before {
   0% {
