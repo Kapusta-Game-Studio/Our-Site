@@ -125,6 +125,11 @@
     animation: preloader_after 1.8s infinite cubic-bezier(0.4, 0, 0.2, 1); }
 
 /* НАША КОМАНДА */
+.title-out_team-custom {
+  margin-top: 30px;
+  font-family: Raleway, sans-serif !important;
+}
+
 
 .tab-content-custom {
   margin-top: 36px;
@@ -200,14 +205,15 @@ box-shadow: 0px 4px 55px -7px rgba(0, 118, 58, 0.41);
     margin: auto;
     margin-top: 20px;
 
-    max-width: 100%;
+    max-width: 70%;
     width: 100%;
 
     height: 2px;
+    margin-bottom: 20px;
 
 }
 
-.card-text-custom { 
+.card-text-custom {
   font-family: Raleway, sans-serif !important;
   font-weight: 300;
   color: #FFFFFF;
@@ -217,6 +223,32 @@ box-shadow: 0px 4px 55px -7px rgba(0, 118, 58, 0.41);
 
 
 /* КОНТАКТЫ */
+
+.info_about_us-custom:before {
+  content: "";
+  display: block;
+  background-color: #fff;
+
+  margin: auto;
+
+  max-width: 100%;
+  width: 100%;
+
+  height: 3px;
+}
+
+
+.info_about_us-custom:after {
+  content: "";
+  display: block;
+  background-color: #fff;
+
+  margin: auto;
+  max-width: 100%;
+  width: 100%;
+
+  height: 3px;
+}
 
 .under-contact-title-custom {
   font-family: Raleway, sans-serif !important;
@@ -285,6 +317,15 @@ box-shadow: 0px 4px 55px -7px rgba(0, 118, 58, 0.41);
   text-shadow: 1px 1px 2px #00763A; 
 }
 
+
+
+/* КАРУСЕЛЬ */
+
+#curusel-custom {
+  display: none;
+  background-color: red;
+  padding: 200px;
+}
 
 
 @keyframes preloader_before {
